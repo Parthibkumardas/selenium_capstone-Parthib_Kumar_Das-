@@ -1,0 +1,5 @@
+test_id,email,password,expected_result,expected_message
+TC_LOGIN_01,sel.capstone.demo01@example.com,Capstone@123,success,
+TC_LOGIN_02,nouser.one@example.com,Wrong@123,failure,Warning: No match for E-Mail Address and/or Password.
+TC_LOGIN_03,nouser.two@example.com,abc12345,failure,Warning: No match for E-Mail Address and/or Password.
+TC_LOGIN_04,,,failure,Warning: No match for E-Mail Address and/or Password.

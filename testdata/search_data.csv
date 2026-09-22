@@ -1,0 +1,6 @@
+test_id,search_term,expected_result,min_count,expected_product
+TC_SEARCH_01,iphone,found,1,iPhone
+TC_SEARCH_02,macbook,found,3,MacBook Pro
+TC_SEARCH_03,samsung,found,2,Samsung Galaxy Tab
+TC_SEARCH_04,canon,found,1,Canon EOS 5D
+TC_SEARCH_05,xyz12345,not_found,0,
